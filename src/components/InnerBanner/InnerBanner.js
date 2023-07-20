@@ -13,8 +13,8 @@ const InnerBanner = () => {
                     </div>
                         <div className='inner-nav-child2'>
                             <ul>
-                                <Link to={'#Home'} className='link-nav'>Home</Link>
-                                <Link to={'#Home'} className='link-nav'>Movies</Link>
+                                <Link to={'http://localhost:3000/'} className='link-nav'>Home</Link>
+                                <Link to={'http://localhost:3000/InnerPage'} className='link-nav'>Movies</Link>
                                 <Link to={'#Home'} className='link-nav'>Tv Shows</Link>
                                 <Link to={'#Home'} className='link-nav'>My List</Link>
                             </ul>
@@ -28,8 +28,8 @@ const InnerBanner = () => {
                         <h6>This thrilling Netflix orginal drama  starts Golden Globe-winning actress <br></br>
                         winona Ryder as joyse Byers, who lives in a small town.</h6>
                         <div className='banner-button'>
-                            <Link to={'#'} className='link-btn-a'><button>STREAM NOW</button></Link>
-                            <Link to={'#'} className='link-btn-b'><button>ALL EPISODES</button></Link>
+                            <Link to={'https://www.youtube.com/watch?v=mVsJXiI60a0'} className='link-btn-a'><button>STREAM NOW</button></Link>
+                            <Link to={'https://www.justwatch.com/in/tv-show/stranger-things'} className='link-btn-b'><button>ALL EPISODES</button></Link>
                         </div>
                     </div>
                         </div>

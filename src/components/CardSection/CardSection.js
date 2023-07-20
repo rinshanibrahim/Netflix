@@ -4,7 +4,7 @@ import "./CardSection.css";
 const CardSection = ({ data }) => {
   return (
     <div>
-      <div className="card-section-parent">
+      <div className="card-section-parent" id="Card">
         <div className="card-section-heading">
           <h3>{data[0].heading}</h3>
         </div>

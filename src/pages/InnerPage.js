@@ -7,6 +7,7 @@ import Horror from '../constants/Horror.json'
 import Drama from '../constants/Drama.json'
 import Comedy from '../constants/Comedy.json'
 import Footer from '../components/Footer/Footer'
+import CardLatest from '../constants/CardLatest.json'
 
 const InnerPage = () => {
   return (
@@ -17,6 +18,7 @@ const InnerPage = () => {
       <CardSection data={Horror} />
       <CardSection data={Drama} />
       <CardSection data={Comedy} />
+      <CardSection data={CardLatest} />
       <Footer/>
     </div>
   )

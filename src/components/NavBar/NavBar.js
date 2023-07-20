@@ -36,7 +36,7 @@ function NavBar() {
         </div>
         <div className="banner_input">
           <input
-            type="text"
+            type="email" 
             onChange={(event)=>{
               setEmail(event.target.value);
             }}
@@ -44,7 +44,7 @@ function NavBar() {
             placeholder="Email address"
             className="input"
           ></input>
-          <Link  className="link" to={'https://www.google.com'}>Get Started</Link>
+          <Link  className="link" to={'http://localhost:3000/InnerPage'}>Get Started</Link>
         </div>
       </div>
       </div>
