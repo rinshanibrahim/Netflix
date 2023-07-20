@@ -9,11 +9,13 @@ const CardSection = ({ data }) => {
           <h3>{data[0].heading}</h3>
         </div>
         <div className="card-section-wrapper">
-          {data?.map((obj) => {
+          {data?.map((obj, index) => {
             return (
-              <div className="card-section">
-                <img src={obj.imageUrl}  alt="logo" />
-              </div>
+              <React.Fragment key={index}>
+                <div className="card-section">
+                  <img src={obj.imageUrl} alt="logo" />
+                </div>
+              </React.Fragment>
             );
           })}
         </div>
